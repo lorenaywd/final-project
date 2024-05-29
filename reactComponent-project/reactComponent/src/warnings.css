@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; /* couleur de fond sombre */
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #d9534f; /* couleur rouge sombre pour mettre en évidence */
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* ombre de texte pour un effet dramatique */
+}
+
+.warning-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.warning-item {
+    margin-bottom: 50px;
+    padding: 40px;
+    background-color: rgba(220, 53, 69, 0.2); /* fond semi-transparent rouge sombre */
+    border-radius: 15px;
+    box-shadow: 0px 8px 25px rgba(220, 53, 69, 0.5); /* ombre rouge sombre pour un effet dramatique */
+    transition: transform 0.3s ease-in-out;
+}
+
+.warning-item:hover {
+    transform: scale(1.05); /* effet d'agrandissement au survol */
+}
+
+.logger-name {
+    font-size: 26px;
+    font-weight: bold;
+    color: #d9534f;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 22px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.level {
+    font-size: 20px;
+    color: #f0ad4e; /* couleur jaune pour le niveau */
+}
