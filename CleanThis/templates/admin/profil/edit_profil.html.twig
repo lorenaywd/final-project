@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{% trans %}Edit User{% endtrans %}{% endblock %}
+
+{% block body %}
+    <section class="home">
+        <div class="text">
+            <h1>{% trans %}Edit User{% endtrans %}</h1>
+            {{ include('admin/employe/_form.html.twig', {'button_label': 'Update'}) }}
+            <a href="{{ path('app_admin_profil') }}">{% trans %}Back to Profile{% endtrans %}</a>
+        </div>
+    </section>
+{% endblock %}
+
+

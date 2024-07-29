@@ -1,0 +1,128 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{asset('assets/css/dashboard.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/admin.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/bootstrap.min.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/admin.css')}}">
+        <title>Dashboard</title>
+    </head>
+
+{% include "_partials/_sidebar.html.twig" %}
+                   
+{% block body %}
+<section class='home'>
+	<div class='text'>
+        <section class = "cards">
+
+            <div class="CA">
+            <img src="{{ asset('images/CA.png') }}" alt="" width= "30" height = "30">
+               <p style="color: #151D48; font-weight: 550">{{ chiffreAffaire }} €</p> 
+                <p>Chiffre d'affaires </p>
+            </div>
+
+            <div class="Op">
+            <img src="{{ asset('images/operation.png') }}" alt="" width= "30" height = "30">
+                <p style="color: #151D48; font-weight: 550">{{ nombreOperations }}</p>
+                <p>Total d'opérations</p>
+            </div>
+
+            <div class="OpTermine">
+            <img src="{{ asset('images/optermine.png') }}" alt="" width= "30" height = "30">
+                <p style="color: #151D48; font-weight: 550">{{ nombreOperationsTermine }}</p>
+                <p>Opérations terminées</p>
+            </div>
+
+            <div class="clients">
+            <img src="{{ asset('images/clients.png') }}" alt="" width= "30" height = "30">
+            <p style="color: #151D48; font-weight: 550">{{ clients }}</p>
+            <p>Nombre de clients</p>
+            </div>
+
+        </section>
+        {# {{dump()}} #}
+        <section class ="chart">
+            <div class="chart-container1">
+                <p class="title">Chiffre d'affaires par service</p>
+                <canvas id="CA/service"></canvas>
+            </div>
+
+            <div class="chart-container">
+            <p class="title1">Chiffre d'affaires par utilisateur</p>
+                <canvas id="usersChart" aria-label="Chart" role="img"></canvas>
+                <div id="users" data-user-names="{{ usersEmployee }}"></div>
+                {# <label for="user-select">Sélectionnez un utilisateur :</label>
+                <select id="user-select">
+                    <option value="">Tous les utilisateurs</option>
+                    {% for user in users %}
+                        <option value="{{ user.id }}">{{ user.lastname }}</option>
+                    {% endfor %} #}
+                </select>
+            </div>
+        </section>
+    </div>
+</section>
+{% endblock %}
+
+
+{% block javascripts %}
+        <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="{{ asset('js/dashboard.js') }}" defer></script>
+<script>
+    const ctx = document.getElementById('CA/service');
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: {{ chiffreAffairesParType|keys|json_encode|raw }},
+            datasets: [{
+                label: 'Chiffre d\'affaires par catégorie',
+                data: [
+                    {% for value in chiffreAffairesParType %}
+                        {{ value }},
+                    {% endfor %}
+                ],
+                backgroundColor: [
+                    '#70C974',
+                    '#8C5EC1',
+                    '#3B3CBA',
+                    '#FFB777'
+                ],
+            }]
+        },
+    });
+</script>
+
+<script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let usersEmployee = JSON.parse(document.querySelector("#users").getAttribute('data-user-names'));
+            let totalTarifs = JSON.parse('{{ totalTarifs|raw }}');
+
+            let users = document.querySelector("#usersChart");
+            let userGraph = new Chart(users, {
+                type: 'bar',
+                data: {
+                    labels: usersEmployee,
+                    datasets: [{
+                        label: "CA",
+                        data: Object.values(totalTarifs),
+                        backgroundColor: '#FA9C53',
+                        // borderColor: 'rgba(255, 99, 132, 1)',
+                        // borderWidth: 1
+                    }]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true
+                        }
+                    }
+                }
+            });
+        });
+
+</script>
+<script src="{{ asset('js/script.js') }}" defer></script>
+{% endblock %}

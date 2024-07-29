@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="vMC8yRQ" resname="Sign In">
+        <source>Sign In</source>
+        <target>Connectez-vous</target>
+      </trans-unit>
+      <trans-unit id="acVpEs4" resname="You are logged in as">
+        <source>You are logged in as</source>
+        <target>Vous êtes connecté en tant que</target>
+      </trans-unit>
+      <trans-unit id="0FJ_Sz1" resname="Logout">
+        <source>Logout</source>
+        <target>Déconnexion</target>
+      </trans-unit>
+      <trans-unit id="8kiP1O9" resname="Email address">
+        <source>Email address</source>
+        <target>Adresse email</target>
+      </trans-unit>
+      <trans-unit id="588_9PF" resname="Password">
+        <source>Password</source>
+        <target>Mot de passe</target>
+      </trans-unit>
+      <trans-unit id="U8RhXeQ" resname="Remember password">
+        <source>Remember password</source>
+        <target>Se souvenir du MDP</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="HbzuaCR" resname="Sign in with Google">
+        <source>Sign in with Google</source>
+        <target>Se connecter avec google</target>
+      </trans-unit>
+      <trans-unit id="ZOiBHqP" resname="On a crisp autumn morning, the leaves rustled softly as a gentle breeze swept through the trees. The sun peeked through the branches, casting dappled shadows on the forest floor. Birds chirped merrily, their songs echoing in the tranquil air. A small stream gurgled nearby, its waters crystal clear and inviting. It was a perfect day for a leisurely stroll in the woods, soaking in the sights and sounds of nature.">
+        <source>On a crisp autumn morning, the leaves rustled softly as a gentle breeze swept through the trees. The sun peeked through the branches, casting dappled shadows on the forest floor. Birds chirped merrily, their songs echoing in the tranquil air. A small stream gurgled nearby, its waters crystal clear and inviting. It was a perfect day for a leisurely stroll in the woods, soaking in the sights and sounds of nature.</source>
+        <target>Par une journée d'été brûlante, alors que le soleil brillait intensément dans un ciel sans nuages, une petite brise caressait doucement les feuilles des arbres. Les enfants riaient et jouaient dans le parc, tandis que les oiseaux chantaient gaiement. Au loin, on entendait le doux murmure d'une rivière qui coulait paisiblement. C'était une journée parfaite pour se détendre et profiter de la beauté de la nature.</target>
+      </trans-unit>
+      <trans-unit id="Ct.B.RJ" resname="Forgotten Password ?">
+        <source>Forgotten Password ?</source>
+        <target>Mot de Passe oublié ?</target>
+      </trans-unit>
+      <trans-unit id="J0I9pPO" resname="Discover our services">
+        <source>Discover our services</source>
+        <target>Découvrez nos services</target>
+      </trans-unit>
+      <trans-unit id="j7mt_8d" resname="We offer professional cleaning services for your home or business.">
+        <source>We offer professional cleaning services for your home or business.</source>
+        <target>Nous offrons des services de nettoyage professionnels pour votre maison ou votre entreprise.</target>
+      </trans-unit>
+      <trans-unit id="ck8jNr9" resname="Request a quote">
+        <source>Request a quote</source>
+        <target>Demandez un Devis</target>
+      </trans-unit>
+      <trans-unit id="db1kdJG" resname="Apartment and house cleaning">
+        <source>Apartment and house cleaning</source>
+        <target>Nettoyage appartement et maison</target>
+      </trans-unit>
+      <trans-unit id="h_gknW0" resname="This service includes basic cleaning of residential or commercial spaces. It includes sweeping, mopping floors, dusting surfaces, cleaning bathrooms and kitchens, and emptying garbage cans. It's ideal for small houses, apartments or offices.">
+        <source>This service includes basic cleaning of residential or commercial spaces. It includes sweeping, mopping floors, dusting surfaces, cleaning bathrooms and kitchens, and emptying garbage cans. It's ideal for small houses, apartments or offices.</source>
+        <target>Ce service comprend le nettoyage de base des espaces résidentiels ou commerciaux. Il inclut le balayage, le lavage des sols, le dépoussiérage des surfaces, le nettoyage des salles de bains et des cuisines, ainsi que la vidange des poubelles. Il est idéal pour les petites maisons, les appartements ou les bureaux de petite taille.</target>
+      </trans-unit>
+      <trans-unit id="MHl41wr" resname="Cleaning your administrative premises">
+        <source>Cleaning your administrative premises</source>
+        <target>Nettoyage de vos locaux administratif</target>
+      </trans-unit>
+      <trans-unit id=".MpMkbo" resname="This service offers a wider range of cleaning services, tailored to customers' more specific needs. In addition to basic cleaning tasks, it includes window cleaning, carpet and rug cleaning, deep dusting of furniture, as well as appliance cleaning. It is suitable for larger residences, medium-sized offices and high-end commercial spaces.">
+        <source>This service offers a wider range of cleaning services, tailored to customers' more specific needs. In addition to basic cleaning tasks, it includes window cleaning, carpet and rug cleaning, deep dusting of furniture, as well as appliance cleaning. It is suitable for larger residences, medium-sized offices and high-end commercial spaces.</source>
+        <target>Ce service offre une gamme plus étendue de nettoyage, adaptée aux besoins plus spécifiques des clients. En plus des tâches de nettoyage de base, il comprend le nettoyage des vitres, le nettoyage des tapis et des moquettes, le dépoussiérage en profondeur des meubles, ainsi que le nettoyage des appareils électroménagers. Il convient aux résidences plus grandes, aux bureaux de taille moyenne et aux espaces commerciaux haut de gamme.</target>
+      </trans-unit>
+      <trans-unit id="wvbVQj." resname="Cleaning up after work">
+        <source>Cleaning up after work</source>
+        <target>Nettoyage après travaux</target>
+      </trans-unit>
+      <trans-unit id="ueIoVVZ" resname="After construction or renovation work, it's common to be left with debris, dust, paint residue and other debris that can make the space uninhabitable. Our specialized cleaning team is trained to handle these situations and leave your space clean, fresh and ready to use. Our specialized cleaning team is trained to handle these situations and leave your space clean, fresh and ready to use.Whether it's a small renovation or a larger construction project, our team is equipped to handle any situation and leave your space as clean as new.">
+        <source>After construction or renovation work, it's common to be left with debris, dust, paint residue and other debris that can make the space uninhabitable. Our specialized cleaning team is trained to handle these situations and leave your space clean, fresh and ready to use. Our specialized cleaning team is trained to handle these situations and leave your space clean, fresh and ready to use.Whether it's a small renovation or a larger construction project, our team is equipped to handle any situation and leave your space as clean as new.</source>
+        <target>Après des travaux de construction ou de rénovation, il est courant de se retrouver avec des débris, de la poussière, des résidus de peinture et d'autres débris qui peuvent rendre l'espace inhabitable. Notre équipe de nettoyage spécialisée est formée pour traiter ces situations et laisser votre espace propre, frais et prêt à être utilisé.Que ce soit pour une petite rénovation ou un projet de construction plus important, notre équipe est équipée pour gérer toutes les situations et laisser votre espace aussi propre que neuf.</target>
+      </trans-unit>
+      <trans-unit id="B9DetWG" resname="Why call on us?">
+        <source>Why call on us?</source>
+        <target>Pourquoi faire appel à nous ?</target>
+      </trans-unit>
+      <trans-unit id="y_FkoJY" resname="Calling on our cleaning company is much more than a simple choice, it's a strategic decision to ensure a clean, healthy and welcoming environment for your home or business.">
+        <source>Calling on our cleaning company is much more than a simple choice, it's a strategic decision to ensure a clean, healthy and welcoming environment for your home or business.</source>
+        <target>Faire appel à notre entreprise de nettoyage est bien plus qu'un simple choix, c'est une décision stratégique pour garantir un environnement propre, sain et accueillant pour votre domicile ou votre entreprise.</target>
+      </trans-unit>
+      <trans-unit id="GLg4pEd" resname="When you choose Clean This, you choose excellence, reliability and peace of mind. Make the right choice for your home or business, and let us help you maintain a clean, healthy environment for you and your loved ones.">
+        <source>When you choose Clean This, you choose excellence, reliability and peace of mind. Make the right choice for your home or business, and let us help you maintain a clean, healthy environment for you and your loved ones.</source>
+        <target>En choisissant Clean This, vous choisissez l'excellence, la fiabilité et la tranquillité d'esprit. Faites le bon choix pour votre domicile ou votre entreprise, et laissez-nous vous aider à maintenir un environnement propre et sain pour vous et vos proches.</target>
+      </trans-unit>
+      <trans-unit id="xgdwaik" resname="Welcome to Clean This">
+        <source>Welcome to Clean This</source>
+        <target>Bienvenue chez Clean This</target>
+      </trans-unit>
+      <trans-unit id="f3fM2w0" resname="For whom and what ?">
+        <source>For whom and what ?</source>
+        <target>Pour qui et pour quoi ?</target>
+      </trans-unit>
+      <trans-unit id="AWfIQpp" resname="We're here to help">
+        <source>We're here to help</source>
+        <target>Nous sommes à votre écoute</target>
+      </trans-unit>
+      <trans-unit id="dItJJLz" resname="Our team of cleaning experts is trained to use the most effective techniques and environmentally-friendly products to guarantee exceptional results while respecting the environment and the health of your occupants. What's more, we listen to our customers and continually strive to improve our services to better meet their changing needs. Our commitment to customer satisfaction is our top priority, and we work tirelessly to exceed our customers' expectations with every intervention.">
+        <source>Our team of cleaning experts is trained to use the most effective techniques and environmentally-friendly products to guarantee exceptional results while respecting the environment and the health of your occupants. What's more, we listen to our customers and continually strive to improve our services to better meet their changing needs. Our commitment to customer satisfaction is our top priority, and we work tirelessly to exceed our customers' expectations with every intervention.</source>
+        <target>Notre équipe d'experts en nettoyage est formée pour utiliser les techniques les plus efficaces et les produits les plus écologiques afin de garantir des résultats exceptionnels tout en respectant l'environnement et la santé de vos occupants. De plus, nous sommes à l'écoute de nos clients et nous nous efforçons continuellement d'améliorer nos services pour mieux répondre à leurs besoins changeants. Notre engagement envers la satisfaction client est notre priorité absolue, et nous travaillons sans relâche pour dépasser les attentes de nos clients à chaque intervention.</target>
+      </trans-unit>
+      <trans-unit id="yFX.8f3" resname="A dedicated team at your service">
+        <source>A dedicated team at your service</source>
+        <target>Une équipe dévoué à votre service</target>
+      </trans-unit>
+      <trans-unit id="Vq1hF_o" resname="Teamwork is at the heart of everything we do. Our teams are made up of dedicated and skilled members who understand the importance of working together to ensure exceptional results. Each member of our team brings his or her own unique skills and passion for excellence, creating a synergy that enables us to exceed our customers' expectations.">
+        <source>Teamwork is at the heart of everything we do. Our teams are made up of dedicated and skilled members who understand the importance of working together to ensure exceptional results. Each member of our team brings his or her own unique skills and passion for excellence, creating a synergy that enables us to exceed our customers' expectations.</source>
+        <target>Le travail d'équipe est au cœur de tout ce que nous faisons. Nos équipes sont composées de membres dévoués et compétents qui comprennent l'importance de travailler ensemble pour garantir des résultats exceptionnels.Chaque membre de notre équipe apporte ses compétences uniques et sa passion pour l'excellence, créant ainsi une synergie qui nous permet d'aller au-delà des attentes de nos clients.</target>
+      </trans-unit>
+      <trans-unit id="w.mz25U" resname="Who are the CleanThis employees ?">
+        <source>Who are the CleanThis employees ?</source>
+        <target>Qui sont les employés de CleanThis ?</target>
+      </trans-unit>
+      <trans-unit id="AaXqgUN" resname="Théo, a CleanThis employee for 7 years.">
+        <source>Théo, a CleanThis employee for 7 years.</source>
+        <target>Théo, employé chez CleanThis depuis 7 ans.</target>
+      </trans-unit>
+      <trans-unit id="lFmlk.i" resname="&quot;What I love about CleanThis? It's that I'm lucky enough to have very kind and caring customers. I feel like I'm part of their family, they trust me and are so grateful for my work. Everyone is happy and it gives me such pleasure to please!&quot;">
+        <source>"What I love about CleanThis? It's that I'm lucky enough to have very kind and caring customers. I feel like I'm part of their family, they trust me and are so grateful for my work. Everyone is happy and it gives me such pleasure to please!"</source>
+        <target>"Ce que j'adore avec CleanThis ? C'est que j'ai la chance d'avoir des clients très gentils et bienveillants. J'ai l'impression de faire partie de leur famille, ils me font confiance et sont si reconnaissants de mon travail. Tout le monde est content et ça me fait si plaisir de faire plaisir !"</target>
+      </trans-unit>
+      <trans-unit id="ehSkih8" resname="Théo, a CleanThis employee for 3 years.">
+        <source>Théo, a CleanThis employee for 3 years.</source>
+        <target>Max, employé chez CleanThis depuis 3 ans.</target>
+      </trans-unit>
+      <trans-unit id="o8i.p7." resname="Why choose CleanThis?">
+        <source>Why choose CleanThis?</source>
+        <target>Pourquoi choisir CleanThis ?</target>
+      </trans-unit>
+      <trans-unit id="wdB41Rb" resname="Economy">
+        <source>Economy</source>
+        <target>Économie</target>
+      </trans-unit>
+      <trans-unit id="mRpenAY" resname="Tax credit of 50% of amounts paid.">
+        <source>Tax credit of 50% of amounts paid.</source>
+        <target>Crédit d'impôt de 50% des sommes versées.</target>
+      </trans-unit>
+      <trans-unit id="HxFBIm0" resname="Serenity">
+        <source>Serenity</source>
+        <target>Sérénité</target>
+      </trans-unit>
+      <trans-unit id="OpjXRUu" resname="No obligation, no cancellation fees.">
+        <source>No obligation, no cancellation fees.</source>
+        <target>Sans engagement, aucun frais d'annulation.</target>
+      </trans-unit>
+      <trans-unit id="i3c4A_Z" resname="Transparency">
+        <source>Transparency</source>
+        <target>Transparence</target>
+      </trans-unit>
+      <trans-unit id="EoKPN9n" resname="What's the price? The time spent satisfying you is our measure and nothing else!">
+        <source>What's the price? The time spent satisfying you is our measure and nothing else!</source>
+        <target>Le prix ? Le temps passé à vous satisfaire est notre mesure et rien d'autre !</target>
+      </trans-unit>
+      <trans-unit id="EBGU8_M" resname="Proximity">
+        <source>Proximity</source>
+        <target>Proximité</target>
+      </trans-unit>
+      <trans-unit id="cHoQ.0h" resname="A branch near you">
+        <source>A branch near you</source>
+        <target>Une agence proche de chez vous</target>
+      </trans-unit>
+      <trans-unit id="hNv63F1" resname="They trust us!">
+        <source>They trust us!</source>
+        <target>Ils nous font confiance !</target>
+      </trans-unit>
+      <trans-unit id="TWBPPsM" resname="&quot;Exceptional service and attention to detail...&quot;">
+        <source>"Exceptional service and attention to detail..."</source>
+        <target>"Un service exceptionnel et une attention aux détails..."</target>
+      </trans-unit>
+      <trans-unit id="hDBNJ0u" resname="- Margot Krax, July 2023">
+        <source>- Margot Krax, July 2023</source>
+        <target>- Margot Krax, Juillet 2023</target>
+      </trans-unit>
+      <trans-unit id="wF43M_8" resname="&quot;I am extremely satisfied with the cleaning service provided by this company...&quot;">
+        <source>"I am extremely satisfied with the cleaning service provided by this company..."</source>
+        <target>"Je suis extrêmement satisfait du service de nettoyage fourni par cette entreprise..."</target>
+      </trans-unit>
+      <trans-unit id="KX58yhN" resname="- Jean Dupont, August 2023">
+        <source>- Jean Dupont, August 2023</source>
+        <target>- Jean Dupont, Aout 2023</target>
+      </trans-unit>
+      <trans-unit id="BQkVDaN" resname="&quot;Their team is professional, punctual and competent...&quot;">
+        <source>"Their team is professional, punctual and competent..."</source>
+        <target>"Leur équipe est professionnelle, ponctuelle et compétente..."</target>
+      </trans-unit>
+      <trans-unit id="Uyyd.Gb" resname="- Rachid Badouri, October 2023">
+        <source>- Rachid Badouri, October 2023</source>
+        <target>- Rachid Badouri, Octobre 2023</target>
+      </trans-unit>
+      <trans-unit id=".D0tDqr" resname="Max, a CleanThis employee for 3 years.">
+        <source>Max, a CleanThis employee for 3 years.</source>
+        <target>__Max, a CleanThis employee for 3 years.</target>
+      </trans-unit>
+      <trans-unit id="t599.1w" resname="Why choose CleanThis ?">
+        <source>Why choose CleanThis ?</source>
+        <target>Pourquoi choisir CleanThis ?</target>
+      </trans-unit>
+      <trans-unit id="tLWAqa2" resname="About us">
+        <source>About us</source>
+        <target>A propos</target>
+      </trans-unit>
+      <trans-unit id="R6rzG4P" resname="Contact us">
+        <source>Contact us</source>
+        <target>Nous contacter</target>
+      </trans-unit>
+      <trans-unit id="CQruTLW" resname="Our services">
+        <source>Our services</source>
+        <target>Nos services</target>
+      </trans-unit>
+      <trans-unit id="5RJIdzu" resname="Management">
+        <source>Management</source>
+        <target>Administration</target>
+      </trans-unit>
+      <trans-unit id="tTGBpNh" resname="My account">
+        <source>My account</source>
+        <target>Mon compte</target>
+      </trans-unit>
+      <trans-unit id="wYmEDPf" resname="Log in">
+        <source>Log in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="Jxxi_i3" resname="My profile">
+        <source>My profile</source>
+        <target>Mon Profil</target>
+      </trans-unit>
+      <trans-unit id="NYzCAfh" resname="Operations">
+        <source>Operations</source>
+        <target>Opérations</target>
+      </trans-unit>
+      <trans-unit id="zDbE1u0" resname="Our Customers">
+        <source>Our Customers</source>
+        <target>Nos Clients</target>
+      </trans-unit>
+      <trans-unit id="O3OIym9" resname="Our Services">
+        <source>Our Services</source>
+        <target>Nos Services</target>
+      </trans-unit>
+      <trans-unit id="zuAh8bY" resname="My Team">
+        <source>My Team</source>
+        <target>Mon Equipe</target>
+      </trans-unit>
+      <trans-unit id="60zevYK" resname="Quote">
+        <source>Quote</source>
+        <target>Devis</target>
+      </trans-unit>
+      <trans-unit id="34x8ibP" resname="Dark Mode">
+        <source>Dark Mode</source>
+        <target>Mode Sombre</target>
+      </trans-unit>
+      <trans-unit id="ezuwN7u" resname="User index">
+        <source>User index</source>
+        <target>Index des utilisateurs</target>
+      </trans-unit>
+      <trans-unit id="L6m7t6r" resname="List of Customers">
+        <source>List of Customers</source>
+        <target>Liste des Clients</target>
+      </trans-unit>
+      <trans-unit id="wJSqxHb" resname="Add a Customer">
+        <source>Add a Customer</source>
+        <target>Ajouter un client</target>
+      </trans-unit>
+      <trans-unit id="9VVjs4a" resname="Last Name">
+        <source>Last Name</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="ls5uYZO" resname="First Name">
+        <source>First Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="FHNqLrn" resname="Role">
+        <source>Role</source>
+        <target>Role</target>
+      </trans-unit>
+      <trans-unit id="yo6CbZw" resname="Avatar">
+        <source>Avatar</source>
+        <target>Avatar</target>
+      </trans-unit>
+      <trans-unit id="4E5Sul6" resname="Completed Operations">
+        <source>Completed Operations</source>
+        <target>Opérations finalisées</target>
+      </trans-unit>
+      <trans-unit id=".4BZ3Gd" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>Aucun enregistrement n'a été trouvé</target>
+      </trans-unit>
+      <trans-unit id="ScJmuqq" resname="Search">
+        <source>Search</source>
+        <target>Rechercher</target>
+      </trans-unit>
+      <trans-unit id="10m5Ia3" resname="Are you sure you want to delete this user?">
+        <source>Are you sure you want to delete this user?</source>
+        <target>Êtes-vous sûr de vouloir supprimer cet utilisateur ?</target>
+      </trans-unit>
+      <trans-unit id="CIageFh" resname="User deleted successfully">
+        <source>User deleted successfully</source>
+        <target>Utilisateur supprimé avec succès</target>
+      </trans-unit>
+      <trans-unit id="TmCQzcY" resname="Deletion failed">
+        <source>Deletion failed</source>
+        <target>La suppression a échoué</target>
+      </trans-unit>
+      <trans-unit id="3feFt5x" resname="An error occurred">
+        <source>An error occurred</source>
+        <target>Une erreur s'est produite</target>
+      </trans-unit>
+      <trans-unit id="R4.NJTO" resname="Edit Customer">
+          <source>Edit Customer</source>
+          <target>Modifier le client</target>
+      </trans-unit>
+      <trans-unit id="NOSLYkT" resname="New Customer">
+          <source>New Customer</source>
+          <target>Nouveau client</target>
+      </trans-unit>
+      <trans-unit id="2xeO1Dm" resname="Create a Customer">
+          <source>Create a Customer</source>
+          <target>Créer un client</target>
+      </trans-unit>
+      <trans-unit id="lXEQWN3" resname="Back to Customers">
+          <source>Back to Customers</source>
+          <target>Retour aux clients</target>
+      </trans-unit>
+      <trans-unit id="CWZaeWK" resname="Hello HomeController!">
+          <source>Hello HomeController!</source>
+          <target>Bonjour HomeController !</target>
+      </trans-unit>
+      <trans-unit id="CzfP85K" resname="Customer since:">
+          <source>Customer since:</source>
+          <target>Client depuis :</target>
+      </trans-unit>
+      <trans-unit id="OEOXHc." resname="ID">
+          <source>ID</source>
+          <target>ID</target>
+      </trans-unit>
+      <trans-unit id="Y9zriAC" resname="Phone">
+          <source>Phone</source>
+          <target>Téléphone</target>
+      </trans-unit>
+      <trans-unit id="lpzL089" resname="Email">
+          <source>Email</source>
+          <target>Email</target>
+      </trans-unit>
+      <trans-unit id="Vu_PIJV" resname="Address">
+          <source>Address</source>
+          <target>Adresse</target>
+      </trans-unit>
+      <trans-unit id="9.6bOyK" resname="← Back To List">
+          <source>← Back To List</source>
+          <target>← Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="Lg6WCrM" resname="Form">
+          <source>Form</source>
+          <target>Formulaire</target>
+      </trans-unit>
+      <trans-unit id="KWyVe.F" resname="Back to List">
+          <source>Back to List</source>
+          <target>Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="Pfm3TFm" resname="Edit Employee">
+          <source>Edit Employee</source>
+          <target>Modifier l'employé</target>
+      </trans-unit>
+      <trans-unit id="_GpV9n1" resname="Employee List">
+          <source>Employee List</source>
+          <target>Liste des employés</target>
+      </trans-unit>
+      <trans-unit id="JlMNME4" resname="+ Add an employee">
+          <source>+ Add an employee</source>
+          <target>+ Ajouter un employé</target>
+      </trans-unit>
+      <trans-unit id="wlM3BVR" resname="Roles">
+          <source>Roles</source>
+          <target>Rôles</target>
+      </trans-unit>
+      <trans-unit id="MVJ_u5A" resname="New User">
+          <source>New User</source>
+          <target>Nouvel utilisateur</target>
+      </trans-unit>
+      <trans-unit id="g36VwXo" resname="Create new User">
+          <source>Create new User</source>
+          <target>Créer un nouvel utilisateur</target>
+      </trans-unit>
+      <trans-unit id="_JAJlyQ" resname="Employee since:">
+          <source>Employee since:</source>
+          <target>Employé depuis :</target>
+      </trans-unit>
+      <trans-unit id="H0bLt9z" resname="Assign an operation to a user">
+          <source>Assign an operation to a user</source>
+          <target>Assigner une opération à un utilisateur</target>
+      </trans-unit>
+      <trans-unit id="kF7jM.W" resname="Assign User">
+          <source>Assign User</source>
+          <target>Assigner un utilisateur</target>
+      </trans-unit>
+      <trans-unit id="y1UL.1_" resname="We apologize for the inconvenience.">
+          <source>We apologize for the inconvenience.</source>
+          <target>Nous nous excusons pour le désagrément.</target>
+      </trans-unit>
+      <trans-unit id="OGuRRO4" resname="Please try again later.">
+          <source>Please try again later.</source>
+          <target>Veuillez réessayer ultérieurement.</target>
+      </trans-unit>
+      <trans-unit id="mRv6AVU" resname="My Profile">
+          <source>My Profile</source>
+          <target>Mon profil</target>
+      </trans-unit>
+      <trans-unit id="p63OcF3" resname="Edit Operation">
+          <source>Edit Operation</source>
+          <target>Modifier l'opération</target>
+      </trans-unit>
+      <trans-unit id="LJuvrd0" resname="Operation index">
+          <source>Operation index</source>
+          <target>Index de l'opération</target>
+      </trans-unit>
+      <trans-unit id="8w1UNDs" resname="View detail">
+          <source>View detail</source>
+          <target>Voir les détails</target>
+      </trans-unit>
+      <trans-unit id="uDIALaK" resname="Invoice">
+          <source>Invoice</source>
+          <target>Facture</target>
+      </trans-unit>
+      <trans-unit id="RPXj__x" resname="Comment">
+          <source>Comment</source>
+          <target>Commentaire</target>
+      </trans-unit>
+      <trans-unit id="2NosSd8" resname="Note">
+          <source>Note</source>
+          <target>Note</target>
+      </trans-unit>
+      <trans-unit id="UJQadGB" resname="Start Date of Operation">
+          <source>Start Date of Operation</source>
+          <target>Date de début de l'opération</target>
+      </trans-unit>
+      <trans-unit id="hlEoeak" resname="End Date of Operation">
+          <source>End Date of Operation</source>
+          <target>Date de fin de l'opération</target>
+      </trans-unit>
+      <trans-unit id="2ktc2L." resname="Operation Result">
+          <source>Operation Result</source>
+          <target>Résultat de l'opération</target>
+      </trans-unit>
+      <trans-unit id="9ahKPDn" resname="Complaint">
+          <source>Complaint</source>
+          <target>Réclamation</target>
+      </trans-unit>
+      <trans-unit id="H2W8yxc" resname="Payment Status">
+          <source>Payment Status</source>
+          <target>Statut de paiement</target>
+      </trans-unit>
+      <trans-unit id="pY0B9vX" resname="Operation Status">
+          <source>Operation Status</source>
+          <target>Statut de l'opération</target>
+      </trans-unit>
+      <trans-unit id="js6JXJs" resname="Assign">
+          <source>Assign</source>
+          <target>Assigner</target>
+      </trans-unit>
+      <trans-unit id="CO5FZaJ" resname="Assigned to">
+          <source>Assigned to</source>
+          <target>Assigné à</target>
+      </trans-unit>
+      <trans-unit id="FNM70BT" resname="Unassigned">
+          <source>Unassigned</source>
+          <target>Non assigné</target>
+      </trans-unit>
+      <trans-unit id="bi6mN7M" resname="No records found">
+          <source>No records found</source>
+          <target>Aucun enregistrement trouvé</target>
+      </trans-unit>
+      <trans-unit id="caxSp58" resname="New Operation">
+          <source>New Operation</source>
+          <target>Nouvelle opération</target>
+      </trans-unit>
+      <trans-unit id="S_w8AUP" resname="Create new Operation">
+          <source>Create new Operation</source>
+          <target>Créer une nouvelle opération</target>
+      </trans-unit>
+      <trans-unit id="Xaj3_8K" resname="Back to list">
+          <source>Back to list</source>
+          <target>Retour à la liste</target>
+      </trans-unit>
+      <trans-unit id="jZbEg8w" resname="Please specify the subject of your complaint and how you would like to be contacted to follow up on your complaint. To allow us to provide you with the clearest possible feedback, please provide as much detail as possible regarding the subject of your complaint.">
+          <source>Please specify the subject of your complaint and how you would like to be contacted to follow up on your complaint. To allow us to provide you with the clearest possible feedback, please provide as much detail as possible regarding the subject of your complaint.</source>
+          <target>Veuillez préciser l'objet de votre plainte et comment vous souhaitez être contacté pour suivre votre plainte. Pour nous permettre de vous fournir les commentaires les plus clairs possibles, veuillez fournir autant de détails que possible concernant l'objet de votre plainte.</target>
+      </trans-unit>
+      <trans-unit id="FV_BbAQ" resname="Submit">
+          <source>Submit</source>
+          <target>Soumettre</target>
+      </trans-unit>
+      <trans-unit id="DwRP62y" resname="Operation">
+          <source>Operation</source>
+          <target>Opération</target>
+      </trans-unit>
+      <trans-unit id="EhVukhv" resname="Id">
+          <source>Id</source>
+          <target>ID</target>
+      </trans-unit>
+      <trans-unit id="TFL6rV3" resname="Start Date">
+          <source>Start Date</source>
+          <target>Date de début</target>
+      </trans-unit>
+      <trans-unit id="6XCVHPt" resname="End Date">
+          <source>End Date</source>
+          <target>Date de fin</target>
+      </trans-unit>
+      <trans-unit id="17vcaD8" resname="Result Image">
+          <source>Result Image</source>
+          <target>Image du résultat</target>
+      </trans-unit>
+      <trans-unit id="1HEJMMM" resname="Your complaint has been successfully submitted!">
+          <source>Your complaint has been successfully submitted!</source>
+          <target>Votre réclamation a été soumise avec succès !</target>
+      </trans-unit>
+      <trans-unit id="tu5cGjJ" resname="It will be processed within 7 days.">
+          <source>It will be processed within 7 days.</source>
+          <target>Elle sera traitée dans les 7 jours.</target>
+      </trans-unit>
+      <trans-unit id="YZnPnML" resname="Best regards,">
+          <source>Best regards,</source>
+          <target>Cordialement,</target>
+      </trans-unit>
+      <trans-unit id="wK9l7ka" resname="Your CleanThis team">
+          <source>Your CleanThis team</source>
+          <target>Votre équipe CleanThis</target>
+      </trans-unit>
+      <trans-unit id="xl4mYPh" resname="Back to my profile">
+          <source>Back to my profile</source>
+          <target>Retour à mon profil</target>
+      </trans-unit>
+      <trans-unit id="6KiDUxl" resname="Edit User">
+          <source>Edit User</source>
+          <target>Modifier l'utilisateur</target>
+      </trans-unit>
+      <trans-unit id="NR8Ux3F" resname="Back to Profile">
+          <source>Back to Profile</source>
+          <target>Retour au profil</target>
+      </trans-unit>
+      <trans-unit id="cyOS7tR" resname="Change avatar">
+          <source>Change avatar</source>
+          <target>Changer l'avatar</target>
+      </trans-unit>
+      <trans-unit id="hl6J3nj" resname="Upload">
+          <source>Upload</source>
+          <target>Télécharger</target>
+      </trans-unit>
+      <trans-unit id="oURlGcq" resname="Employee since">
+          <source>Employee since</source>
+          <target>Employé depuis</target>
+      </trans-unit>
+      <trans-unit id="y6rTz0p" resname="Mobile">
+          <source>Mobile</source>
+          <target>Mobile</target>
+      </trans-unit>
+      <trans-unit id="nWqfZgB" resname="Old Password">
+          <source>Old Password</source>
+          <target>Ancien mot de passe</target>
+      </trans-unit>
+      <trans-unit id="fEUeD0N" resname="New Password">
+          <source>New Password</source>
+          <target>Nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="yvQSjVv" resname="Save Password">
+          <source>Save Password</source>
+          <target>Enregistrer le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="SzwSlSX" resname="My Operations">
+          <source>My Operations</source>
+          <target>Mes opérations</target>
+      </trans-unit>
+      <trans-unit id="vzdjODq" resname="Customer">
+          <source>Customer</source>
+          <target>Client</target>
+      </trans-unit>
+      <trans-unit id="1ncZDgq" resname="Service">
+          <source>Service</source>
+          <target>Service</target>
+      </trans-unit>
+      <trans-unit id="Xwj21Uv" resname="Operation completed &lt;i style = &quot;color: green;&quot;  class='bx bx-check'&gt;&lt;/i&gt;">
+        <source>Operation completed &lt;i style = "color: green;"  class='bx bx-check'&gt;&lt;/i&gt;</source>
+        <target><![CDATA[Opération completé <i style = "color: green;"  class='bx bx-check'></i>]]></target>
+      </trans-unit>
+      <trans-unit id="CsVmfpZ" resname="Finish Operation">
+        <source>Finish Operation</source>
+        <target>Terminé l'Operation</target>
+      </trans-unit>
+      <trans-unit id="QjvzOA." resname="Update my informations">
+        <source>Update my informations</source>
+        <target>Modifier mes informations</target>
+      </trans-unit>
+      <trans-unit id="k6gjPz." resname="Request a new quote">
+        <source>Request a new quote</source>
+        <target>Demander un nouveau devis</target>
+      </trans-unit>
+      <trans-unit id="XzK8Yd1" resname="See details">
+        <source>See details</source>
+        <target>Voir les détails</target>
+      </trans-unit>
+      <trans-unit id="FnRB2mo" resname="descriptive">
+        <source>descriptive</source>
+        <target>description</target>
+      </trans-unit>
+      <trans-unit id=".2n8K5t" resname="Started on">
+        <source>Started on</source>
+        <target>débuté le</target>
+      </trans-unit>
+      <trans-unit id="ynoYFwN" resname="Finished on">
+        <source>Finished on</source>
+        <target>terminé le</target>
+      </trans-unit>
+      <trans-unit id="JytXBPp" resname="Payment status">
+        <source>Payment status</source>
+        <target>Status du paiement</target>
+      </trans-unit>
+      <trans-unit id="wqEiNfD" resname="View my invoice">
+        <source>View my invoice</source>
+        <target>Voir ma facture</target>
+      </trans-unit>
+      <trans-unit id=".eHm6wl" resname="Your profil">
+        <source>Your profil</source>
+        <target>Votre profile</target>
+      </trans-unit>
+      <trans-unit id="C_79wF1" resname="CleanThis">
+        <source>CleanThis</source>
+        <target>CleanThis</target>
+      </trans-unit>
+      <trans-unit id="oh1uG3D" resname="See my operations">
+        <source>See my operations</source>
+        <target>Voir mes opérations </target>
+      </trans-unit>
+      <trans-unit id="kQH2Jfm" resname="Update my profil">
+        <source>Update my profil</source>
+        <target>Modifier mon profil</target>
+      </trans-unit>
+      <trans-unit id="i3jswXV" resname="Update my avatar">
+        <source>Update my avatar</source>
+        <target>Changer mon avatar</target>
+      </trans-unit>
+      <trans-unit id="3NHVIj9" resname="Name">
+        <source>Name</source>
+        <target>Nom</target>
+      </trans-unit>
+      <trans-unit id="ZHz6kbI" resname="Firstname">
+        <source>Firstname</source>
+        <target>Prénom</target>
+      </trans-unit>
+      <trans-unit id="8RhOomP" resname="Old password">
+        <source>Old password</source>
+        <target>Ancien mot de passe</target>
+      </trans-unit>
+      <trans-unit id="PdnfREH" resname="New password">
+        <source>New password</source>
+        <target>Nouveau mot de passe</target>
+      </trans-unit>
+      <trans-unit id="2gqST6H" resname="Save my password">
+        <source>Save my password</source>
+        <target>Enregistrer mon mot de passe</target>
+      </trans-unit>
+      <trans-unit id="yFzOCGk" resname="save changes">
+        <source>save changes</source>
+        <target>Sauvegarder</target>
+      </trans-unit>
+      <trans-unit id="oucYCrk" resname="Leave a reclamation">
+        <source>Leave a reclamation</source>
+        <target>Laisser une réclamation</target>
+      </trans-unit>
+      <trans-unit id="b2mgglk" resname="Please tell us the subject of your complaint as well as how you wish to be contacted in order to follow up on it. To enable us to provide you with the clearest feedback possible, do not hesitate to leave as much detail as possible regarding the subject of your complaint.">
+        <source>Please tell us the subject of your complaint as well as how you wish to be contacted in order to follow up on it. To enable us to provide you with the clearest feedback possible, do not hesitate to leave as much detail as possible regarding the subject of your complaint.</source>
+        <target>Veuillez nous préciser l'objet de votre réclamation ainsi que la manière dont vous souhaitez être contacté afin de donner suite à celle-ci. Pour nous permettre de vous apporterle retour le plus clair pssible, n'hesitez pas à laisser un maximum de détail quand à l'objet de votre réclamation.</target>
+      </trans-unit>
+      <trans-unit id="9vRoj.I" resname="Send">
+        <source>Send</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="LSHhXGb" resname="Back to profil">
+        <source>Back to profil</source>
+        <target>Retour au profil</target>
+      </trans-unit>
+      <trans-unit id="qzJP2wx" resname="Ask for a quote">
+        <source>Ask for a quote</source>
+        <target>Demander un devis</target>
+      </trans-unit>
+      <trans-unit id="1KBpwEk" resname="Submit your quote request which will be analyzed by our team so that they can get back to you and arrange an appointment">
+        <source>Submit your quote request which will be analyzed by our team so that they can get back to you and arrange an appointment</source>
+        <target>Faites votre demande de devis qui sera analysée par notre équipe pour qu’elle puisse revenir vers vous et convenir d’un rendez-vous !</target>
+      </trans-unit>
+      <trans-unit id="qz8Yr4k" resname="Send quote">
+        <source>Send quote</source>
+        <target>Envoyer</target>
+      </trans-unit>
+      <trans-unit id="Te.Ough" resname="Create a password">
+        <source>Create a password</source>
+        <target>Créer un mot de passe</target>
+      </trans-unit>
+      <trans-unit id="6IX71n6" resname="The form was not created correctly">
+        <source>The form was not created correctly</source>
+        <target>Le formulaire n'a pas été correctement créé</target>
+      </trans-unit>
+      <trans-unit id="_TJnqhH" resname="Remember me">
+        <source>Remember me</source>
+        <target>Se souvenir de moi</target>
+      </trans-unit>
+      <trans-unit id="OoVh6R2" resname="Sign In with Google">
+        <source>Sign In with Google</source>
+        <target>Me connecter avec Google</target>
+      </trans-unit>
+      <trans-unit id="u0L4zVJ" resname="Forgot password">
+        <source>Forgot password</source>
+        <target>Mot de passe oublié</target>
+      </trans-unit>
+      <trans-unit id="4O3_s6c" resname="Reset password">
+        <source>Reset password</source>
+        <target>Réinitialiser le mot de passe</target>
+      </trans-unit>
+      <trans-unit id="vXjsOHD" resname="Your contact request has been taken into account!">
+        <source>Your contact request has been taken into account!</source>
+        <target>Votre demande a bien été prise en compte!</target>
+      </trans-unit>
+      <trans-unit id="UIS5VWd" resname="Sincerely">
+        <source>Sincerely</source>
+        <target>Cordialement</target>
+      </trans-unit>
+      <trans-unit id="wTofV5V" resname="Your complaint has been taken into account!">
+        <source>Your complaint has been taken into account!</source>
+        <target>Votre réclamation a bien été prise en compte!</target>
+      </trans-unit>
+      <trans-unit id="Uzx3GfJ" resname="It will be processed within 7 days">
+        <source>It will be processed within 7 days</source>
+        <target>Elle sera traitée sous un délais de 7 jours</target>
+      </trans-unit>
+      <trans-unit id="aUVm8rg" resname="Sincerely,">
+        <source>Sincerely,</source>
+        <target>Cordialement,</target>
+      </trans-unit>
+      <trans-unit id="O5wLLQO" resname="Your CleanThis Team">
+        <source>Your CleanThis Team</source>
+        <target>Votre équipe CleanThis</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

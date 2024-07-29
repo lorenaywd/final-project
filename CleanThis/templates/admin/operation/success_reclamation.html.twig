@@ -1,0 +1,13 @@
+{% block stylesheets %} 
+    <link rel="stylesheet" href="{{asset('assets/css/success_reclamation.css')}}">
+{% endblock %}
+
+<div class="success-page">
+   <img src="http://share.ashiknesin.com/green-checkmark.png" class="center" alt="" />
+  <h2>{% trans %}Your complaint has been successfully submitted!{% endtrans %}</h2>
+  <p>{% trans %}It will be processed within 7 days.{% endtrans %}</p>
+  <p>{% trans %}Best regards,{% endtrans %}</p>
+  <p>{% trans %}Your CleanThis team{% endtrans %}</p>
+  <a href="{{ path('app_user_profil') }}" class="btn-retour"> <span>{% trans %}Back to my profile{% endtrans %}</span> </a>
+</div>
+</div>

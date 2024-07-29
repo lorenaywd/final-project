@@ -1,0 +1,138 @@
+{% extends 'basebis.html.twig' %}
+
+{% block title %}Mon profil Client
+{% endblock %}
+{% block stylesheets %}
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.22.3/dist/bootstrap-table.min.css">
+	<link rel="stylesheet" href="{{asset('assets/css/client.css')}}">
+{% endblock %}
+{% block body  %}
+	<section class="topBackground">
+		<div class="animation">{% trans %}Your profil{% endtrans %}</div>
+		<div class="animation">
+			<span>{% trans %}CleanThis{% endtrans %}</span>
+		</div>
+
+	</section>
+	<div class="personalInformations">
+
+		<div class="personal">
+			<strong>{{ app.user.lastname }}
+				{{ app.user.firstname }}</strong>
+			<p>{{ app.user.tel }}</p>
+			<p>{{ app.user.email }}</p>
+			<p>{{ app.user.address }}</p>
+			{% if app.user.avatar == null %}
+				<img src="{{ asset('images/avatar-placeholder.png') }}" alt="" class="avatar" width="150" height="150" style=" border-radius: 50%; object-fit: cover;">
+			{% else %}
+				<img src="{{ app.user.avatar ? asset(app.user.avatar) : 'placeholder.jpg' }}" alt="" class="avatar" width="140" height="140" style=" border-radius: 50%; object-fit: cover;">
+			{% endif %}
+		</div>
+		<a href="{{ path('app_user_edit', {'id': app.user.id}) }}" class="ModifierInfos">{% trans %}Update my informations{% endtrans %}</a>
+		<a href="{{ path('app_devis_client') }}" class="demanderDevis">{% trans %}Request a new quote{% endtrans %}</a>
+	</div>
+	<a href="#" id="scrollDownButton" class="scrollDownButton">{% trans %}See my operations{% endtrans %}
+		&#8595;</a>
+	<section class="homeProfil">
+		<div class="text">
+			<table class="table" data-toggle="table" data-search="true" data-show-columns="true" data-pagination="true">
+				<thead class="en-tête">
+					<tr>
+						<th class="light-weight">{% trans %}Descriptive{% endtrans %}</th>
+						<th data-sortable="true" data-field="date_debut" class="light-weight">{% trans %}Started on{% endtrans %}</th>
+						<th data-sortable="true" data-field="date_fin" class="light-weight">{% trans %}Finished on{% endtrans %}</th>
+						<th data-sortable="true" data-field="status_paiement" class="light-weight">{% trans %}Payment status{% endtrans %}</th>
+						<th class="light-weight">{% trans %}View my invoice{% endtrans %}</th>
+						<th class="light-weight">{% trans %}Leave a reclamation{% endtrans %}</th>
+						<th class="light-weight">{% trans %}Rating us{% endtrans %}</th>
+
+					</tr>
+				</thead>
+				<tbody>
+					{% for item in operations %}
+						{% set operation = item.operation %}
+						{% set lastType = item.lastType.libelle  %}
+						<tr>
+							<td class="light-weight">{{ lastType }}</td>
+							<td class="light-weight">{{ operation.dateDebut ? operation.dateDebut|date('Y-m-d H:i:s') : '' }}</td>
+							<td class="light-weight">{{ operation.dateFin ? operation.dateFin|date('Y-m-d H:i:s') : '' }}</td>
+							<td>
+								{% if operation.statusPaiement %}
+									<span style="color: green;" class="badge-success">{% trans %}Réglé
+										<i style="color: green;" class='bx bx-check'></i>
+										{% endtrans %}</span>
+								{% else %}
+									<a href="{{ path('payer', {'id': operation.id}) }}" style="background-color: #F2C57C; border:none; " class="btn btn-primary payer-facture">Payer ma facture</a>
+								{% endif %}
+							</td>
+
+							<td>
+								<a
+									href="{{ path('app_operation_facture', {'id': operation.id}) }}" class="actionsButtons">
+									{# <i class='bx bx-show'></i> #}
+									<img src="{{ asset('images/pdf.png') }}" alt="">
+								</a>
+							</td>
+							<td>
+								{% if operation.reclamation %}
+									<span style="color: green;">Envoyé <i style="color: green;" class='bx bx-check'></i></span>								
+								{% else %}
+									<a href="{{ path('app_operation_reclamation', {'id': operation.id}) }}" class="actionsButtons" style="text-decoration:none;">
+										Reclamation
+									</a>
+								{% endif %}
+							</td>
+							<td>
+								{% if operation.note %}
+									<span style="color: green;">Envoyé <i style="color: green;" class='bx bx-check'></i></span>
+								{% else %}
+									<a href="{{ path('note', {'id': operation.id}) }}" style="text-decoration:none;">Laisser une note</a>
+								{% endif %}
+							</td>
+						</tr>
+					{% else %}
+						<tr>
+							<td colspan="13">{% trans %}no records found{% endtrans %}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+
+		</div>
+	</section>
+{% endblock %}
+
+
+{% block javascripts %}
+	<script src="https://cdn.jsdelivr.net/npm/jquery/dist/jquery.min.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.22.3/dist/bootstrap-table.min.js"></script>
+	<script src="https://unpkg.com/bootstrap-table@1.22.3/dist/bootstrap-table-fr-FR.min.js"></script>
+	<script>
+		$(document).ready(function () {
+
+$('.search input').attr('placeholder', 'Rechercher ');
+$('.search input').addClass('form-control pr-5');
+$('.search').addClass('position-relative');
+$('.search input').after('<span id="searchIcon" class="input-group-text bi bi-search position-absolute" style="right: 10px; top: 28%; transform: translateY(-50%); cursor: pointer; border: none; padding: 0;"></span>');
+$('.search input').keydown(function (event) {
+if (event.keyCode === 13) {
+$('#searchIcon').hide();
+}
+});
+});
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		$(document).ready(function () {
+$("#scrollDownButton").click(function () {
+$('html, body').animate({
+scrollTop: $(".homeProfil").offset().top
+}, 1000);
+});
+});
+	</script>
+
+{% endblock %}

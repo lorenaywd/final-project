@@ -1,0 +1,55 @@
+{% block body %}
+<section class="home1">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h2 class="text-center">{% trans %}Form{% endtrans %}</h2>
+                    </div>
+                    <div class="card-body">
+                      {% if error %}
+                        <div class="alert alert-danger">
+                          {{ error }}
+                        </div>
+                      {% endif %}
+                        {{ form_start(form) }}
+                            {{ form_widget(form) }}<br>
+                            <button style="float: right; color: white;" class="btn modifier m-3">{{ button_label|default('Save') }}</button>
+                            <a style="float: left; color: white;" class= "retour m-3" href="{{ path('app_employe_index') }}">{% trans %}Back to List{% endtrans %}</a>
+                        {{ form_end(form) }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var addressInput = document.querySelector('#form_adresseIntervention');
+    var cityInput = document.querySelector('#form_city');
+    var zipcodeInput = document.querySelector('#form_zipcode');
+
+    addressInput.addEventListener('input', function() {
+        var query = addressInput.value.trim();
+        if (query.length < 3) return;
+
+        fetch(`https://api-adresse.data.gouv.fr/search/?q=${encodeURIComponent(query)}&limit=1`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.features.length > 0) {
+                    var address = data.features[0].properties.label;
+                    var city = data.features[0].properties.city;
+                    var zipcode = data.features[0].properties.postcode;
+
+                    addressInput.value = address;
+                    cityInput.value = city;
+                    zipcodeInput.value = zipcode;
+                }
+            })
+            .catch(error => console.error('Error fetching address:', error));
+    });
+});
+</script>
+{% endblock %}
